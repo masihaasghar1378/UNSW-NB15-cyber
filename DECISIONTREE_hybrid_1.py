@@ -20,6 +20,7 @@ from tensorflow.keras.layers import Dense, Dropout
 import shap
 
 # ========================= CONFIG =========================
+#change the pathways to your current pathway
 train_path = r'D:\PHD WORK\research for thesis\CPS paper\New folder\archive1\UNSW_NB15_train.csv'
 test_path = r'D:\PHD WORK\research for thesis\CPS paper\New folder\archive1\UNSW_NB15_test.csv'
 methods = ['correlation', 'mutual_info', 'chi2', 'variance', 'rfe', 'lasso', 'tree_importance', 'boruta']
